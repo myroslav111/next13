@@ -7,7 +7,7 @@ export default function AboutLayout({
 }) {
   return (
     <div>
-      <h1 className="text-center text-xl">About us</h1>
+      <h1 className="text-center text-8xl">About us</h1>
       <ul>
         <li>
           <Link href="/about/contacts">contacts</Link>

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 };
 
 const About = () => {
-  return <h3 className="text-lg text-center">Select subtitle</h3>;
+  return <h3 className=" text-lg text-center">Select subtitle</h3>;
 };
 
 export default About;
