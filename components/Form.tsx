@@ -5,6 +5,11 @@ const Form = () => {
     const sum: number = a + b;
     return sum;
   };
+
+  const fooMinus = (a: number, b: number): number => {
+    const sum = a - b;
+    return sum;
+  };
   return <div>Form</div>;
 };
 
