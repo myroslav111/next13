@@ -10,7 +10,27 @@ const Form = () => {
     const sum = a - b;
     return sum;
   };
-  return <div>Form</div>;
+
+  const fooMult = (a: number, b: number): number => {
+    const sum = a * b;
+    return sum;
+  };
+  return (
+    <div>
+      <h1>Form</h1>
+      <form>
+        <label htmlFor="">
+          <input type="text" />
+        </label>
+        <label htmlFor="">
+          <input type="radio" />
+        </label>
+        <label htmlFor="">
+          <input type="checkbox" />
+        </label>
+      </form>
+    </div>
+  );
 };
 
 export default Form;
